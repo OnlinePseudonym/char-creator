@@ -1,0 +1,50 @@
+﻿@page "/create-classes"
+@using CharacterCreation.Shared.Models;
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h1>Character Creation</h1>
+
+<Classes />
+
+<EditForm Model="@baseClass" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label>
+        Name
+        <input @bind="baseClass.Name" />
+    </label>
+    <button type="submit">Save Base Class</button>
+</EditForm>
+
+<EditForm Model="@promotionClass" OnValidSubmit="@HandleValidClassSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label>
+        Name
+        <input @bind="promotionClass.Name" />
+    </label>
+    <label>
+        Base Class
+        <input @bind="promotionClass.BaseClassId" />
+    </label>
+    <button type="submit">Save Class</button>
+</EditForm>
+
+Welcome to your new app.
+
+@code {
+    private BaseClassDto baseClass = new BaseClassDto();
+    private ClassDto promotionClass = new ClassDto();
+
+    private async Task HandleValidSubmit()
+    {
+        var createdBaseClass = await Http.SendJsonAsync<BaseClassDto>(HttpMethod.Post, "api/baseclass", baseClass);
+    }
+    private async Task HandleValidClassSubmit()
+    {
+        var createdPromotionClass = await Http.SendJsonAsync<ClassDto>(HttpMethod.Post, "api/class", promotionClass);
+    }
+}

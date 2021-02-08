@@ -1,0 +1,9 @@
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\bin\Debug\netstandard2.0\CharacterCreation.Shared.deps.json
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\bin\Debug\netstandard2.0\CharacterCreation.Shared.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\bin\Debug\netstandard2.0\CharacterCreation.Shared.pdb
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.csprojAssemblyReference.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.csproj.CoreCompileInputs.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.AssemblyInfoInputs.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.AssemblyInfo.cs
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Shared\obj\Debug\netstandard2.0\CharacterCreation.Shared.pdb

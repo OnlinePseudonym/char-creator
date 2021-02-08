@@ -1,0 +1,14 @@
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Logic.deps.json
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Logic.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Logic.pdb
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Data.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Shared.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Data.pdb
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\bin\Debug\netstandard2.0\CharacterCreation.Shared.pdb
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.csprojAssemblyReference.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.csproj.CoreCompileInputs.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.AssemblyInfoInputs.cache
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.AssemblyInfo.cs
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.csproj.CopyComplete
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.dll
+C:\dev\personal\CharacterCreation\CharacterCreation.Logic\obj\Debug\netstandard2.0\CharacterCreation.Logic.pdb

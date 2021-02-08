@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QqtdBR/sOd3VYbO1IsDBSKSgaWpAcDcc2wE0U9HIqSo2zyELRr+J43Xky3/ax14EGMbtlC0bOLG7cmO3H+oXFQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\personal\\CharacterCreation\\CharacterCreation.Shared\\CharacterCreation.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

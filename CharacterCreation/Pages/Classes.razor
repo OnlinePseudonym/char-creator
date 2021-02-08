@@ -1,0 +1,31 @@
+﻿@page "/classes"
+@using CharacterCreation.Shared.Models;
+@inject HttpClient Http
+
+<h1>Classes</h1>
+
+<div>@baseClasses.Length</div>
+
+@foreach (var baseClass in baseClasses)
+{
+    <div>@baseClass.Name - @baseClass.Id</div>
+}
+
+<div>@classes.Length</div>
+
+@foreach (var promotionClass in classes)
+{
+    <div>@promotionClass.Name - @promotionClass.Id</div>
+}
+
+
+@code {
+    private BaseClassDto[] baseClasses = new BaseClassDto[] { };
+    private ClassDto[] classes = new ClassDto[] { };
+
+    protected override async Task OnInitializedAsync()
+    {
+        baseClasses = await Http.GetJsonAsync<BaseClassDto[]>("api/baseclass");
+        classes = await Http.GetJsonAsync<ClassDto[]>("api/class");
+    }
+}

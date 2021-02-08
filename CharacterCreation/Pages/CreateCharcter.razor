@@ -1,0 +1,58 @@
+﻿@page "/create-character"
+@using CharacterCreation.Shared.Models;
+@inject HttpClient Http
+@inject NavigationManager NavigationManager
+
+<h1>Character Creation</h1>
+
+<EditForm Model="@character" OnValidSubmit="@HandleValidSubmit">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <label>
+        Name
+        <input @bind="character.Name" />
+    </label>
+    <label>
+        Class Id
+        <input @bind="character.ClassId" />
+    </label>
+    <label>
+        Strength
+        <input @bind="character.Strength" />
+    </label>
+    <label>
+        Dexterity
+        <input @bind="character.Dexterity" />
+    </label>
+    <label>
+        Constitution
+        <input @bind="character.Constitution" />
+    </label>
+    <label>
+        Intelligence
+        <input @bind="character.Intelligence" />
+    </label>
+    <label>
+        Spirit
+        <input @bind="character.Spirit" />
+    </label>
+    <label>
+        User Id
+        <input @bind="character.UserId" />
+    </label>
+    <button type="submit">Save Character</button>
+</EditForm>
+
+
+Welcome to your new app.
+
+@code {
+    private CharacterDto character = new CharacterDto();
+
+    private async Task HandleValidSubmit()
+    {
+        var createdCharacter = await Http.SendJsonAsync<CharacterDto>(HttpMethod.Post, "api/characters", character);
+        NavigationManager.NavigateTo($"/api/characters/{createdCharacter.Id}");
+    }
+}
